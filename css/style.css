@@ -24,6 +24,7 @@ body img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .navbar {
@@ -78,6 +79,8 @@ body img {
     list-style-type: none;
     color: #2e2f42;
     text-decoration: none;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-link:hover {
@@ -106,6 +109,7 @@ body img {
     color: #434455;
     letter-spacing: 0.02em;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .adres-t {
@@ -117,6 +121,7 @@ body img {
     color: #434455;
     letter-spacing: 0.02em;
     text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .adres-t:hover {
@@ -145,7 +150,7 @@ body img {
     max-width: 1440px;
     height: 600px;
     top: 72px;
-    background-image:url(../images/section-1\ bacground.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-1\ bacground.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -179,6 +184,7 @@ body img {
     line-height: 24px;
     letter-spacing: 0, 02em;
     display: block
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .buton:hover {
@@ -202,6 +208,7 @@ body img {
 
 .about-list {
     display: flex;
+    flex-direction: row;
     gap: 24px;
     list-style-type: none;
 }
@@ -226,14 +233,14 @@ body img {
 }
 
 .icon {
-    width: 264px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 112px;
-    border: 1px;
-    background-color: #F4F4FD;
-    border-color: #8E8F99;
-}
-.antenna {
-    padding: 40px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
 
 }
 
