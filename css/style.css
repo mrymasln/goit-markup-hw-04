@@ -36,7 +36,7 @@ body img {
 
 .nav-logo {
     display: flex;
-    align-items: center
+    align-items: center;
 }
 
 .webstudio {
@@ -79,8 +79,19 @@ body img {
     list-style-type: none;
     color: #2e2f42;
     text-decoration: none;
-    position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-link::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
 }
 
 .nav-link:hover {
@@ -109,7 +120,7 @@ body img {
     color: #434455;
     letter-spacing: 0.02em;
     text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adres-t {
@@ -121,7 +132,7 @@ body img {
     color: #434455;
     letter-spacing: 0.02em;
     text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .adres-t:hover {
@@ -147,13 +158,10 @@ body img {
 .effective {
     padding: 188px 0;
     background-color: #2e2f42;
-    max-width: 1440px;
+    width: 1440px;
     height: 600px;
     top: 72px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-1\ bacground.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .title {
@@ -183,8 +191,8 @@ body img {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0, 02em;
-    display: block
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    display: block;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buton:hover {
@@ -208,13 +216,12 @@ body img {
 
 .about-list {
     display: flex;
-    flex-direction: row;
     gap: 24px;
     list-style-type: none;
 }
 
 .about-li {
-    flex-basis: calc((100% - 72px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .about-baslik {
@@ -223,7 +230,7 @@ body img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .about-p {
@@ -237,11 +244,11 @@ body img {
     align-items: center;
     justify-content: center;
     height: 112px;
+    width: 264px;
     background-color: #f4f4fd;
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
-
 }
 
 
