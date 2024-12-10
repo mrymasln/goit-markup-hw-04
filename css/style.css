@@ -136,7 +136,7 @@ body img {
 
 
 
-section .effective {
+.effective {
     padding: 188px 0;
     background-color: #2e2f42;
     max-width: 1440px;
@@ -234,7 +234,7 @@ section .effective {
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
 }
-.icon svg {
+.icon > svg {
     width: 64;
     height: 64;
 }
