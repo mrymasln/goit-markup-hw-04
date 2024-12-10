@@ -77,8 +77,9 @@ body img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style-type: none;
-    color: #2e2f42;
+    color: #404bbf;
     text-decoration: none;
+    position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -111,7 +112,7 @@ body img {
     gap: 40px;
 }
 
-.adres-m {
+.adres-link {
     width: 153px;
     height: 24px;
     color: #434455;
@@ -123,31 +124,11 @@ body img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adres-t {
-    width: 151px;
-    height: 24px;
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #434455;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.adres-t:hover {
+.adres-link:hover {
     color: #404bbf;
 }
 
-.adres-m:hover {
-    color: #404bbf;
-}
-
-.adres-t:focus {
-    color: #404bbf;
-}
-
-.adres-m:focus {
+.adres-link:focus {
     color: #404bbf;
 }
 
