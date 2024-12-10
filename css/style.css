@@ -142,7 +142,7 @@ body img {
     max-width: 1440px;
     height: 600px;
     top: 72px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/section-1\ bacground.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/background.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -320,9 +320,6 @@ body img {
 
     background-color: #404bbf;
 }
-.social-media-list-a:active {
-    background-color: #404bbf;
-}
 .social-media-list-svg {
     fill: #f4f4fd;
 }
@@ -386,7 +383,7 @@ body img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    transform: translate(0%);
+    transform: translateY(0%);
 }
 
 .portfolio-image {
@@ -482,7 +479,7 @@ body img {
 .social-media-footer-a:hover {
     background-color: #31d0aa
 }
-.social-media-footer-a:active {
+.social-media-footer-a:focus {
     background-color: #31d0aa;
 }
 .social-media-footer-svg {
